@@ -1,0 +1,44 @@
+.nav-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.naam{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.list{
+    flex: 10;
+
+}
+.list ul{
+    display: flex;
+    gap: 2rem;
+    margin-left: 4rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+.list ul li a{
+    text-decoration: none;
+    color: black;
+}
+.list ul li a:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+.n-btn{
+    flex:2;
+}
